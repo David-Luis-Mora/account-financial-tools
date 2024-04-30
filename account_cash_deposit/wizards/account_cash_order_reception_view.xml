@@ -17,7 +17,7 @@
                         options="{'datepicker': {'warn_future': true}}"
                     />
                         <field name="total_amount" />
-                        <field name="currency_id" invisible="1" />
+                        <field name="currency_id" column_invisible="1" />
                 </group>
                 <footer>
                         <button

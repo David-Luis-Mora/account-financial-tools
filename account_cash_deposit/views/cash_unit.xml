@@ -14,7 +14,7 @@
                     name="web_ribbon"
                     title="Archived"
                     bg_color="bg-danger"
-                    attrs="{'invisible': [('active', '=', True)]}"
+                    invisible="(active == True)"
                 />
                             <group name="main">
                                     <field
@@ -25,12 +25,13 @@
                                     <field name="cash_type" />
                                     <field
                         name="coinroll_qty"
-                        attrs="{'invisible': [('cash_type', '!=', 'coinroll')], 'required': [('cash_type', '=', 'coinroll')]}"
+                        invisible="(cash_type != 'coinroll')"
+                        required="(cash_type == 'coinroll')"
                     />
                                     <field name="value" />
                                     <field
                         name="total_value"
-                        attrs="{'invisible': [('cash_type', '!=', 'coinroll')]}"
+                        invisible="(cash_type != 'coinroll')"
                     />
                                     <field name="auto_create" />
                             </group>
@@ -56,7 +57,7 @@
                             <field name="value" />
                             <field
                     name="coinroll_qty"
-                    attrs="{'invisible': [('cash_type', '!=', 'coinroll')]}"
+                    invisible="(cash_type != 'coinroll')"
                 />
                             <field name="total_value" />
                             <field name="auto_create" optional="show" />

@@ -47,7 +47,7 @@ notes and coin rolls for that currency (coin rolls are often
 standardised by the Central Bank). You can also definie the coins, but
 it's not useful if your bank only accept coin rolls and not coins.
 
-|image1|
+|image2|
 
 To save time for new users, this module provides the bank notes, coins
 and coin rolls for several currencies (EUR, USD, CAD, etc.). If it is
@@ -62,7 +62,7 @@ very often.
 On the Accounting configuration page, in the section *Bank & Cash*, the
 *Inter-Banks Transfer Account* must be configured.
 
-.. |image1| image:: https://raw.githubusercontent.com/OCA/account-financial-tools/17.0/account_cash_deposit/static/description/currency_form_view.png
+.. |image2| image:: https://raw.githubusercontent.com/OCA/account-financial-tools/17.0/account_cash_deposit/static/description/currency_form_view.png
 
 Usage
 =====
@@ -118,6 +118,9 @@ Contributors
 ------------
 
 -  Alexis de Lattre <alexis.delattre@akretion.com>
+-  `Binhex <https://binhex.cloud//com>`__:
+
+   -  David Luis Mora <d.luis@binhex.cloud>
 
 Maintainers
 -----------

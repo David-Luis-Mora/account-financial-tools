@@ -14,7 +14,7 @@ class AccountCashDeposit(models.Model):
     _check_company_auto = True
 
     name = fields.Char(
-        string="Reference", size=64, readonly=True, default="/", copy=False
+        string="Reference", size=64, default="/", copy=False
     )
     operation_type = fields.Selection(
         [
@@ -257,7 +257,7 @@ class AccountCashDeposit(models.Model):
                     )
         return super().create(vals_list)
 
-    def name_get(self):
+    def _compute_display_name(self):
         res = []
         type2label = dict(
             self.fields_get("operation_type", "selection")["operation_type"][

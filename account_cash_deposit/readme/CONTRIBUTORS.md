@@ -1,1 +1,3 @@
 - Alexis de Lattre \<<alexis.delattre@akretion.com>\>
+- [Binhex](https://binhex.cloud//com):
+  - David Luis Mora \<<d.luis@binhex.cloud>\>

@@ -3,7 +3,7 @@ notes and coin rolls for that currency (coin rolls are often
 standardised by the Central Bank). You can also definie the coins, but
 it's not useful if your bank only accept coin rolls and not coins.
 
-![](static/description/currency_form_view.png)
+![image2](static/description/currency_form_view.png)
 
 To save time for new users, this module provides the bank notes, coins
 and coin rolls for several currencies (EUR, USD, CAD, etc.). If it is
